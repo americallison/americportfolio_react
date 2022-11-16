@@ -1,7 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react';
+
 
 
 export default function PersonalDetails() {
+
+const [isActive, setIsActive] = useState({
+  active: true,
+  name: "education"
+})
+
   return (
 <div className="py-6">
 <main>
@@ -25,14 +32,14 @@ export default function PersonalDetails() {
 
         <div className="p-6 max-w-full mx-auto">
             <ul className="flex justify-center items-center gap-4">
-            <li className="bg-[#FF8F56] rounded-lg p-4 border border-zinc-500">
-                <a href="" id="education" className="font-roboto font-bold text-2xl text-white">Education</a>
+            <li className={`border border-zinc-500 rounded-lg p-4  ${isActive.active && isActive.name === "education" && 'bg-[#FF8F56]'}`}>
+               <a href="" id="education" className="font-roboto font-bold text-xl text-white">Education</a>
               </li>
-              <li className="bg-sky-700 rounded-lg border border-gray-400 p-4">
-                <a href="" id="work" className="font-roboto text-xl text-white">Work</a>
+              <li className={`border border-zinc-500 rounded-lg p-4  ${isActive.active && isActive.name === "work" && 'bg-[#FF8F56]'}`}>
+                <a href="" id="work" className="font-roboto text-xl">Work</a>
               </li>
-              <li className="bg-lime-700 rounded-lg p-4 border border-stone-800">
-                <a href="" id="hobbies" className="font-roboto text-xl text-white">Hobbies</a>
+              <li className={`border border-zinc-500 rounded-lg p-4  ${isActive.active && isActive.name === "hobbies" && 'bg-[#FF8F56]'}`}>
+                <a href="" id="hobbies" className="font-roboto text-xl">Hobbies</a>
               </li>
             </ul>
         </div>
@@ -42,5 +49,6 @@ export default function PersonalDetails() {
     </div>
     </main>
     </div>
+    
   )
     }
