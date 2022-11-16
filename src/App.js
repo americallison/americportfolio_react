@@ -15,11 +15,11 @@ export default function App() {
     {/* insert the personal details component */}
     <PersonalDetails />
 
+     {/* insert the education component */}
+     <Education />
+
     {/* insert the work component */}
      <Work />
-   
-    {/* insert the education component */}
-     <Education />
 
      {/* insert the hobbies component */}
      <Hobbies />

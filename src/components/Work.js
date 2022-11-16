@@ -27,7 +27,7 @@
   </details>
 
   <details className="px-6 py-4">
-    <summary className="font-bold text-2xl text-gray-800"></summary>
+    <summary className="font-bold text-2xl text-gray-800">College of Agriculture and Sustainable Development (Cuttington University) - (2015 - 2016)</summary>
     <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international
       pavilions, award-winning fireworks and seasonal special events.</p>
   </details>

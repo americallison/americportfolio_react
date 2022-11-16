@@ -15,13 +15,28 @@ export default function PersonalDetails() {
         <img className="w-40" src="https://api.multiavatar.com/JB.svg " alt="JB image" />
       </div>
       <div id="content" className="prose lg:prose-xl px-2">
-        <h1 className="text-center text-gray-800 text-4xl capitalize m-2 font-medium">Americ Allison</h1>
+        <h1 className="text-center text-gray-800 text-3xl capitalize m-2 font-medium">Americ Allison</h1>
         <small className="text-center block text-md mb-3 text-gray-800">Junior Web Developer, Teacher &amp; Network Technician</small>
-        <p className="text-justify text-lg mt-2 text-gray-800">I am a tech enthusiast presently engaged in Computer Networking and 
+        <p className="text-justify text-lg mt-2 p-3 m-2 text-gray-800">Hello, I am a tech enthusiast presently engaged in Computer Networking and 
         Programming. I obtained a Bachelor of Science degree in Plant and Soil Science from Cuttington University and minored 
         in Accounting. I have been involved with technology for about 5 years. I first started writing small programs in
         Python using Tkinter. I then transitioned web applications with Flask. My major languages are HTML, CSS, Python, 
-        Javascript. My major frameworks are Bootstrap, Tailwind CSS, Flask and React.</p>
+        Javascript. My major frameworks are Bootstrap, Tailwind CSS, Flask. </p>
+
+        <div className="p-6 max-w-full mx-auto">
+            <ul className="flex justify-center items-center gap-4">
+            <li className="bg-[#FF8F56] rounded-lg p-4 border border-zinc-500">
+                <a href="" id="education" className="font-roboto font-bold text-2xl text-white">Education</a>
+              </li>
+              <li className="bg-sky-700 rounded-lg border border-gray-400 p-4">
+                <a href="" id="work" className="font-roboto text-xl text-white">Work</a>
+              </li>
+              <li className="bg-lime-700 rounded-lg p-4 border border-stone-800">
+                <a href="" id="hobbies" className="font-roboto text-xl text-white">Hobbies</a>
+              </li>
+            </ul>
+        </div>
+
       </div>
     </div>
     </div>
