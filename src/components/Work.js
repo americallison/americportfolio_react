@@ -20,7 +20,7 @@
 
   <details className="px-6 py-4">
     <summary className="font-bold text-2xl text-stone-100">Cuttington University (December 2016 - January 2021)</summary>
-    <p>I served as a Resource Room and Computer Lab Assistant and Financial Coordinator at the College of Agriculture and Sustainable Development (CASD)
+    <p className="text-stone-800">I served as a Resource Room and Computer Lab Assistant and Financial Coordinator at the College of Agriculture and Sustainable Development (CASD)
         at Cuttington Univertsity. At CASD, I made a lot of impacts and left a strong legacy. My core duties were assisting faculty and students
         with research and locating resources in the Library. I also prepared financial statements and bank reconciliations for CASD.  
     </p>
