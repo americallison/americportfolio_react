@@ -54,8 +54,8 @@ export default function MainNavBar () {
                   sm:items-stretch sm:justify-start
                 ">
               <div className="flex flex-shrink-0 items-center">
-                <h4 className="block h-6 w-auto lg:hidden">Americ Allison</h4>
-                <h4 className="hidden h-6 w-auto lg:block">Americ Allison</h4>
+                <h4 className="block h-6 w-auto lg:hidden"><a href="/">Americ Allison</a></h4>
+                <h4 className="hidden h-6 w-auto lg:block"><a href="/">Americ Allison</a></h4>
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                 {/* <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" --> */}
