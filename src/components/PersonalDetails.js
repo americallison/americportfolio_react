@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 
 
 
+
 export default function PersonalDetails() {
 
 const [isActive, setIsActive] = useState({
@@ -13,9 +14,6 @@ const [isActive, setIsActive] = useState({
 <div className="py-6">
 <main>
   <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-    {/* <!-- Replace with your content --> */}
-
-    {/* <!-- Work --> */}
     <div id="intro" className="bg-[#
     3EAEAEA] h-auto my-6 py-8 rounded-lg border-4">
       <div id="avatar" className="flex justify-center py-2">
@@ -32,14 +30,15 @@ const [isActive, setIsActive] = useState({
 
         <div className="p-6 max-w-full mx-auto">
             <ul className="flex justify-center items-center gap-4">
-            <li className={`border border-zinc-500 rounded-lg p-4  ${isActive.active && isActive.name === "education" && 'bg-[#FF8F56]'}`}>
-               <a href="" id="education" className="font-roboto font-bold text-xl text-white">Education</a>
+              <li className={`border border-zinc-500 rounded-lg p-4 ${isActive.active && isActive.name === "education" && 'bg-[#FF8F56]'}`}>
+               <a href="#" id="education" className="font-roboto font-bold text-xl text-white">Education</a>
               </li>
-              <li className={`border border-zinc-500 rounded-lg p-4  ${isActive.active && isActive.name === "work" && 'bg-[#FF8F56]'}`}>
-                <a href="" id="work" className="font-roboto text-xl">Work</a>
+              <li className={`border border-zinc-500 rounded-lg p-4 ${isActive.active && isActive.name === "work" && 'bg-[#FF8F56]'}`}>
+              <a href="#" id="work" 
+              className="font-roboto text-xl">Work</a>
               </li>
-              <li className={`border border-zinc-500 rounded-lg p-4  ${isActive.active && isActive.name === "hobbies" && 'bg-[#FF8F56]'}`}>
-                <a href="" id="hobbies" className="font-roboto text-xl">Hobbies</a>
+              <li className={`border border-zinc-500 rounded-lg p-4 ${isActive.active && isActive.name === "hobbies" && 'bg-[#FF8F56]'}`}>
+                <a href="#" id="hobbies" className="font-roboto text-xl">Hobbies</a>
               </li>
             </ul>
         </div>
@@ -47,7 +46,9 @@ const [isActive, setIsActive] = useState({
       </div>
     </div>
     </div>
+
     </main>
+    
     </div>
     
   )

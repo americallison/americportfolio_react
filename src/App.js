@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import MainNavBar from './components/MainNavBar';
 import PersonalDetails from './components/PersonalDetails';
@@ -16,6 +16,7 @@ export default function App() {
     <PersonalDetails />
 
      {/* insert the education component */}
+     
      <Education />
 
     {/* insert the work component */}
@@ -23,7 +24,8 @@ export default function App() {
 
      {/* insert the hobbies component */}
      <Hobbies />
-      
+
+     
     </>
   )
 }
