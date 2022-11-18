@@ -5,25 +5,28 @@ import PersonalDetails from './components/PersonalDetails';
 import Work from './components/Work'
 import Education from './components/Education';
 import Hobbies from './components/Hobbies';
+import { useState } from 'react';
 
 export default function App() {
+
+  const [isActive, setIsActive] = useState({
+    active: true,
+    name: "education"
+  })
+
   return (
     <>
     {/* insert the main navbar component */}
     <MainNavBar />
 
     {/* insert the personal details component */}
-    <PersonalDetails />
+    <PersonalDetails isActive={isActive} setIsActive={setIsActive}/>
 
-     {/* insert the education component */}
-     
-     <Education />
+    {
+      isActive.active && isActive.name === "education" ? (<Education /> ): isActive.active && isActive.name === "work" ? (<Work /> ) : (<Hobbies />)
+    }
 
-    {/* insert the work component */}
-     <Work />
-
-     {/* insert the hobbies component */}
-     <Hobbies />
+    
 
      
     </>
