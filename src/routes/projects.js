@@ -8,11 +8,12 @@ export default function Projects() {
         <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
     {/* <!--Card 1--> */}
     <div class="rounded overflow-hidden shadow-lg">
-      <img class="w-full" src="https://picsum.photos/id/25/100" alt="Mountain" />
+      <img class="w-full" src="images/Phonebook.png" alt="phonebook" />
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Mountain</div>
+        <div class="font-bold text-xl mb-2">Phonebook in React</div>
         <p class="text-gray-700 text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+          This phonebook was designed in React. It is connected to firebase and it enables a user
+          to store contacts and view contact details.
         </p>
       </div>
       <div class="px-6 pt-4 pb-2">

@@ -69,7 +69,7 @@ export default function MainNavBar () {
                       font-medium
                       text-gray-900
                     ">Projects</a>
-                <a href="#" className="
+                <a href="/blog" className="
                       inline-flex
                       items-center
                       border-b-2 border-transparent

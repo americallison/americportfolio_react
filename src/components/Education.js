@@ -12,15 +12,22 @@ export default function Education() {
       </div>
     
       <details className="px-6 py-4">
-        <summary className="font-bold text-2xl text-stone-100">Cuttington University</summary>
-        <p>I acquired a Bachelor of Science Degree in Plant and Soil Science and Accounting minor 
-            from Cuttington University in July 2016. I graduated a second dux of the University.
+        <summary className="font-bold text-2xl text-stone-400">Cuttington University</summary>
+        <p className='text-stone-100'>I acquired a Bachelor of Science Degree in Plant and Soil Science and Accounting minor 
+            from Cuttington University in July 2016.
         </p>
       </details>
     
       <details className="px-6 py-4">
-        <summary className="font-bold text-2xl text-stone-100">Starz College of Science and Technology</summary>
-        <p>I obtained a Certificate in Computer Hardware and Operating Systems (A+) from Starz College of Science 
+        <summary className="font-bold text-2xl text-stone-400">Starz College of Science and Technology</summary>
+        <p className='text-stone-100'>I obtained a Certificate in Computer Hardware and Operating Systems (A+) from Starz College of Science 
+            and Technology. The training lasted for three (3) months.
+        </p>
+      </details>
+
+      <details className="px-6 py-4">
+        <summary className="font-bold text-2xl text-stone-400">Starz College of Science and Technology</summary>
+        <p className='text-stone-100'>I obtained a Certificate in Computer Hardware and Operating Systems (A+) from Starz College of Science 
             and Technology. The training lasted for three (3) months.
         </p>
       </details>
