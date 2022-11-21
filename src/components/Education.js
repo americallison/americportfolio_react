@@ -13,22 +13,24 @@ export default function Education() {
     
       <details className="px-6 py-4">
         <summary className="font-bold text-2xl text-stone-400">Cuttington University</summary>
-        <p className='text-stone-100'>I acquired a Bachelor of Science Degree in Plant and Soil Science and Accounting minor 
+        <p className='text-stone-100 mt-2'>I acquired a Bachelor of Science Degree in Plant and Soil Science and Accounting minor 
             from Cuttington University in July 2016.
         </p>
       </details>
     
       <details className="px-6 py-4">
         <summary className="font-bold text-2xl text-stone-400">Starz College of Science and Technology</summary>
-        <p className='text-stone-100'>I obtained a Certificate in Computer Hardware and Operating Systems (A+) from Starz College of Science 
+        <p className='text-stone-100 mt-2'>I obtained a Certificate in Computer Hardware and Operating Systems (A+) from Starz College of Science 
             and Technology. The training lasted for three (3) months.
         </p>
       </details>
 
       <details className="px-6 py-4">
-        <summary className="font-bold text-2xl text-stone-400">Starz College of Science and Technology</summary>
-        <p className='text-stone-100'>I obtained a Certificate in Computer Hardware and Operating Systems (A+) from Starz College of Science 
-            and Technology. The training lasted for three (3) months.
+        <summary className="font-bold text-2xl text-stone-400">
+          Monrovia Meetup Computer Science Academy (Orange Digital Center)</summary>
+        <p className='text-stone-100 mt-2'>I obtained a Certificate in Introduction to Python Programming. This was a six (6)
+        months intensive training in fundamental concepts of Python. Topics covered were variables, strings, lists,
+        dictionaries, functions, classes and the Flask Framework.
         </p>
       </details>
     
