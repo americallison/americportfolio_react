@@ -26,9 +26,10 @@ export default function Projects() {
     <div class="rounded overflow-hidden shadow-lg">
       <img class="w-full" src="https://picsum.photos/id/30/100" alt="River" />
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">River</div>
+        <div class="font-bold text-xl mb-2">My Portfolio</div>
         <p class="text-gray-700 text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+          My portfolio project was done using React and Firebase. This project highlights my education,
+          work experience and hobbies. It also contains a blog page and contact page.
         </p>
       </div>
       <div class="px-6 pt-4 pb-2">
