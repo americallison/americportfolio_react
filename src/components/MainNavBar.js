@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function MainNavBar () {
     return (
@@ -54,12 +55,12 @@ export default function MainNavBar () {
                   sm:items-stretch sm:justify-start
                 ">
               <div className="flex flex-shrink-0 items-center">
-                <h4 className="block h-6 w-auto lg:hidden"><a href="/">Americ Allison</a></h4>
-                <h4 className="hidden h-6 w-auto lg:block"><a href="/">Americ Allison</a></h4>
+                <h4 className="block h-6 w-auto lg:hidden"><Link to="/">Americ Allison</Link></h4>
+                <h4 className="hidden h-6 w-auto lg:block"><Link to="/">Americ Allison</Link></h4>
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                 {/* <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" --> */}
-                <a href="/projects" className="
+                <Link to="/projects" className="
                       inline-flex
                       items-center
                       border-b-2 border-indigo-500
@@ -68,8 +69,8 @@ export default function MainNavBar () {
                       text-sm
                       font-medium
                       text-gray-900
-                    ">Projects</a>
-                <a href="/blog" className="
+                    ">Projects</Link>
+                <Link to="/blog" className="
                       inline-flex
                       items-center
                       border-b-2 border-transparent
@@ -79,8 +80,8 @@ export default function MainNavBar () {
                       font-medium
                       text-gray-500
                       hover:border-gray-300 hover:text-gray-700
-                    ">Blog</a>
-                <a href="#" className="
+                    ">Blog</Link>
+                <Link to="/contact" className="
                       inline-flex
                       items-center
                       border-b-2 border-transparent
@@ -90,7 +91,7 @@ export default function MainNavBar () {
                       font-medium
                       text-gray-500
                       hover:border-gray-300 hover:text-gray-700
-                    ">Contact</a>
+                    ">Contact</Link>
               </div>
             </div>
             <div className="
@@ -109,7 +110,7 @@ export default function MainNavBar () {
         <div className="sm:hidden" id="mobile-menu">
           <div className="space-y-1 pt-2 pb-4">
             {/* <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" --> */}
-            <a href="#" className="
+            <Link to="/projects" className="
                   block
                   border-l-4 border-indigo-500
                   bg-indigo-50
@@ -119,8 +120,8 @@ export default function MainNavBar () {
                   text-base
                   font-medium
                   text-indigo-700
-                ">Projects</a>
-            <a href="#" className="
+                ">Projects</Link>
+            <Link to="/blog" className="
                   block
                   border-l-4 border-transparent
                   py-2
@@ -130,8 +131,8 @@ export default function MainNavBar () {
                   font-medium
                   text-gray-500
                   hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700
-                ">Blog</a>
-            <a href="#" className="
+                ">Blog</Link>
+            <Link to="/contact" className="
                   block
                   border-l-4 border-transparent
                   py-2
@@ -141,7 +142,7 @@ export default function MainNavBar () {
                   font-medium
                   text-gray-500
                   hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700
-                ">Contact</a>
+                ">Contact</Link>
           </div>
         </div>
       </nav>

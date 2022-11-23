@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Projects from './routes/projects';
 import Blog from './routes/blogs';
+import Contact from './routes/contact';
 
 import {
   createBrowserRouter,
@@ -29,6 +30,11 @@ const router = createBrowserRouter([
   {
     path: "/blog",
     element: <Blog />,
+  },
+
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 

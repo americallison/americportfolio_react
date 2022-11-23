@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import MainNavBar from "../../components/MainNavBar";
-import { collection, doc, getDoc, getDocs, onSnapshot } from "firebase/firestore";
+import { collection, doc, getDocs } from "firebase/firestore/lite";
 import { FireBaseDB } from "../../db/firebase";
 import PostAuthorCard from "../../components/PostAuthorCard";
 
@@ -76,7 +76,7 @@ export default function Blog() {
                         </a>
                       </div>
                       <div class="mt-6 flex items-center">
-                        <PostAuthorCard />
+                        <PostAuthorCard authorId={post.author.id} />
                       </div>
                     </div>
                   </div>
