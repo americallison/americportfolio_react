@@ -17,7 +17,7 @@ export default function PostAuthorCard({authorId}) {
                 console.log("No such document")
             }
         }
-    })
+    }, []);
 
     return (
         <>
