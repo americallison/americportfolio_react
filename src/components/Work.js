@@ -28,8 +28,8 @@
 
   <details className="px-6 py-4">
     <summary className="font-bold text-xl text-stone-100">College of Agriculture and Sustainable Development (Cuttington University) - (2015 - 2016)</summary>
-    <p  className="text-stone-200 mt-2">Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international
-      pavilions, award-winning fireworks and seasonal special events.</p>
+    <p  className="text-stone-200 mt-2">I worked as a volunteer at the College of Agriculture and Sustainable Development. 
+    I ensured students signed in before entering the Resource Room. I also helped students with basic lessons in Microsoft Office.</p>
   </details>
 </div>
 </div>
