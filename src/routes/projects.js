@@ -13,7 +13,7 @@ export default function Projects() {
     <div class="rounded overflow-hidden shadow-lg">
       <img class="w-full" src={pic} alt="Mountain" />
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Phonebook in React</div>
+        <div class="font-bold text-xl text-blue-700 mb-2">Phonebook in React</div>
         <p class="text-gray-700 text-base">
           This phonebook was designed in React. It is connected to firebase and it enables a user
           to store contacts and view contact details.
@@ -29,7 +29,7 @@ export default function Projects() {
     <div class="rounded overflow-hidden shadow-lg">
       <img class="w-full" src={pic1} alt="River" />
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">My Portfolio</div>
+        <div class="font-bold text-xl text-blue-700 mb-2">My Portfolio</div>
         <p class="text-gray-700 text-base">
           My portfolio project was done using React and Firebase. This project highlights my education,
           work experience and hobbies. It also contains a blog page and contact page.
