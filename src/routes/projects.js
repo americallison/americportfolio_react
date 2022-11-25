@@ -1,7 +1,8 @@
 import React from 'react';
 import MainNavBar from '../components/MainNavBar';
-import pic from "../components/images/Phonebook.png"
-import pic1 from "../components/images/portfolio.png"
+import pic from "../components/images/Phonebook.png";
+import pic1 from "../components/images/portfolio.png";
+
 
 export default function Projects() {
     return (
@@ -10,7 +11,7 @@ export default function Projects() {
         <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
     {/* <!--Card 1--> */}
     <div class="rounded overflow-hidden shadow-lg">
-      <img src={pic} alt="Mountain" />
+      <img class="w-full" src={pic} alt="Mountain" />
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">Phonebook in React</div>
         <p class="text-gray-700 text-base">
@@ -26,7 +27,7 @@ export default function Projects() {
     </div>
     {/* <!--Card 2--> */}
     <div class="rounded overflow-hidden shadow-lg">
-      <img src={pic1} height={70} alt="River" />
+      <img class="w-full" src={pic1} alt="River" />
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">My Portfolio</div>
         <p class="text-gray-700 text-base">
