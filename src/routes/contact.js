@@ -1,6 +1,6 @@
 import React from 'react';
 import MainNavBar from '../components/MainNavBar';
-
+import {Link} from "react-router-dom"
 export default function Contact() {
     return (
         <>
@@ -25,12 +25,12 @@ export default function Contact() {
                   xl:text-[40px]
                   "
                                 >
-                                    GET IN TOUCH WITH AMERIC ALLISON
+                                    GET IN TOUCH WITH&nbsp;
+                                    
+                                    <Link to="/"><span class="text-blue-700">AMERIC ALLISON</span></Link>
                                 </h2>
                                 <p class="text-base text-body-color leading-relaxed mb-9">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eius tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                    adiqua minim veniam quis nostrud exercitation ullamco
+                                   Contact me today and feel the difference. 
                                 </p>
 
                             </div>
