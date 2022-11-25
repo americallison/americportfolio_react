@@ -30,7 +30,8 @@ export default function Contact() {
                                     <Link to="/"><span class="text-blue-700">AMERIC ALLISON</span></Link>
                                 </h2>
                                 <p class="text-base text-body-color leading-relaxed mb-9">
-                                   Contact me today and feel the difference. 
+                                   Contact me today and feel the difference. I am just an inch away if you need to learn Python Programming,
+                                   React JS, or develop your website or web application.
                                 </p>
 
                             </div>

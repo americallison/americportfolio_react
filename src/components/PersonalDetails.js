@@ -33,14 +33,14 @@ export default function PersonalDetails({isActive, setIsActive}) {
 
         <div className="p-6 max-w-full mx-auto">
             <ul className="flex justify-center items-center gap-4">
-              <li className={`border border-zinc-500 rounded-lg p-4 ${isActive.active && isActive.name === "education" && 'bg-[#d1d1d1]'}`}>
+              <li className={`border border-zinc-500 rounded-lg p-4 ${isActive.active && isActive.name === "education" && 'bg-[#f2e7d5] '}`}>
                <a href="#education" onClick={handleActive} id="education" className="font-roboto font-bold text-xl">Education</a>
               </li>
-              <li className={`border border-zinc-500 rounded-lg p-4 ${isActive.active && isActive.name === "work" && 'bg-[#d1d1d1]'}`}>
+              <li className={`border border-zinc-500 rounded-lg p-4 ${isActive.active && isActive.name === "work" && 'bg-[#f2e7d5] '}`}>
               <a href="#work" onClick={handleActive}  id="work" 
               className="font-roboto font-bold text-xl">Work</a>
               </li>
-              <li className={`border border-zinc-500 rounded-lg p-4 ${isActive.active && isActive.name === "hobbies" && 'bg-[#d1d1d1]'}`}>
+              <li className={`border border-zinc-500 rounded-lg p-4 ${isActive.active && isActive.name === "hobbies" && 'bg-[#f2e7d5] '}`}>
                 <a href="#hobbies" onClick={handleActive} id="hobbies" className="font-roboto font-bold text-xl">Hobbies</a>
               </li>
             </ul>
