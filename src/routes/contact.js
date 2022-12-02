@@ -29,13 +29,13 @@ export default function Contact() {
                                     
                                     <Link to="/"><span class="text-blue-700">AMERIC ALLISON</span></Link>
                                 </h2>
-                                <p class="text-base text-body-color leading-relaxed mb-9">
+                                <p class="text-base text-body-color leading-relaxed mb-5">
                                    Contact me today and feel the difference. I am just an inch away if you need to learn Python Programming,
                                    React JS, or develop your website or web application.
                                 </p>
-                                <p class="mb-9">
-                                   <a href="https://github.com/americallison">GitHub</a>
-                                </p>
+                                <h4 className="mb-9">Check me out on&nbsp;
+                                   <a className="text-blue-700  text-xl" href="https://github.com/americallison" target="_blank">GitHub</a>
+                                </h4>
                             
 
                             </div>
