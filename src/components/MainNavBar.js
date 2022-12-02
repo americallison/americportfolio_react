@@ -55,8 +55,8 @@ export default function MainNavBar () {
                   sm:items-stretch sm:justify-start
                 ">
               <div className="flex flex-shrink-0 items-center">
-                <h4 className="block h-6 w-auto lg:hidden"><Link to="/">Americ Allison</Link></h4>
-                <h4 className="hidden h-6 w-auto lg:block"><Link to="/">Americ Allison</Link></h4>
+                <h4 className="block h-6 w-auto lg:hidden hover:scale-105 transition duration-300 ease-in-out"><Link to="/">Americ Allison</Link></h4>
+                <h4 className="hidden h-6 w-auto lg:block hover:scale-105 transition duration-300 ease-in-out"><Link to="/">Americ Allison</Link></h4>
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                 {/* <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" --> */}
@@ -69,6 +69,7 @@ export default function MainNavBar () {
                       text-sm
                       font-medium
                       text-gray-900
+                      hover:scale-105 transition duration-300 ease-in-out
                     ">Projects</Link>
                 <Link to="/blog" className="
                       inline-flex
@@ -80,6 +81,7 @@ export default function MainNavBar () {
                       font-medium
                       text-gray-500
                       hover:border-gray-300 hover:text-gray-700
+                      hover:scale-105 transition duration-300 ease-in-out
                     ">Blog</Link>
                 <Link to="/contact" className="
                       inline-flex
@@ -91,6 +93,7 @@ export default function MainNavBar () {
                       font-medium
                       text-gray-500
                       hover:border-gray-300 hover:text-gray-700
+                      hover:scale-105 transition duration-300 ease-in-out
                     ">Contact</Link>
               </div>
             </div>

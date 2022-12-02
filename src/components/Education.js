@@ -14,14 +14,18 @@ export default function Education() {
       <details className="px-6 py-4">
         <summary className="font-bold text-xl text-stone-100">Cuttington University</summary>
         <p className='text-stone-200 mt-2'>I acquired a Bachelor of Science Degree in Plant and Soil Science and Accounting minor 
-            from Cuttington University in July 2016.
+            from Cuttington University in July 2016. I enrolled at Cuttington University in 2012 on 
+            the USAID EHELD Scholarship. I chose to study Plant and Soil Science because I believe Liberia
+            needs to feed herself. I studied Accounting as a minor. I graduated as the second (2nd) dux of 
+            the University in 2016.
         </p>
       </details>
     
       <details className="px-6 py-4">
         <summary className="font-bold text-xl text-stone-100">Starz College of Science and Technology</summary>
         <p className='text-stone-200 mt-2'>I obtained a Certificate in Computer Hardware and Operating Systems (A+) from Starz College of Science 
-            and Technology. The training lasted for three (3) months.
+            and Technology. The training lasted for three (3) months. I learned about hardware components of a
+            computer
         </p>
       </details>
 
