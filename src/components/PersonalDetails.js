@@ -1,4 +1,5 @@
 import React from 'react';
+import profile from "../components/images/profile.jpg";
 
 
 
@@ -20,10 +21,10 @@ export default function PersonalDetails({isActive, setIsActive}) {
     <div id="intro" className="bg-[#
     3EAEAEA] h-auto my-6 py-8 rounded-lg">
       <div id="avatar" className="flex justify-center py-2">
-        <img className="w-40" src="https://api.multiavatar.com/AA.svg " alt="JB" />
+        <img className="w-40 h-43 rounded-xl" src={profile} alt="JB" />
       </div>
       <div id="content" className="prose lg:prose-xl px-2">
-        <h1 className="text-center text-gray-800 text-3xl capitalize m-2 font-medium">Americ Allison</h1>
+        <h3 className="text-center text-sky-900 text-2xl capitalize m-2 font-medium">Americ Allison</h3>
         <small className="text-center block text-md text-sky-700 mb-3 text-gray-800">Web Developer, Teacher &amp; Network Technician</small>
         <p className="text-justify text-lg mt-2 p-3 m-2 text-gray-800">Hello, I am a tech enthusiast presently engaged in Computer 
         Programming and basic networking. I obtained a Bachelor of Science degree in Plant and Soil Science from Cuttington University and minored 
