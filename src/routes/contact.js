@@ -33,6 +33,10 @@ export default function Contact() {
                                    Contact me today and feel the difference. I am just an inch away if you need to learn Python Programming,
                                    React JS, or develop your website or web application.
                                 </p>
+                                <p class="mb-9">
+                                   <a href="https://github.com/americallison">GitHub</a>
+                                </p>
+                            
 
                             </div>
                         </div>

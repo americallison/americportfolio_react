@@ -38,7 +38,14 @@ export default function Education() {
         </p>
       </details>
     
-    
+      <details className="px-6 py-4">
+        <summary className="font-bold text-xl text-stone-100">
+          Orange Digital Center</summary>
+        <p className='text-stone-200 mt-2'>I'm anticipating obtaining a Certificate in Programming using React.js 
+        by December 16, 2022. The program commenced on the 19th of October 2022. This is a 2-month training which 
+        is highly practical. Programming of real world applications are being taught. 
+        </p>
+      </details>
     </div>
     </div>
     </>
