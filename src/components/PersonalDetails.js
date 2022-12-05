@@ -20,7 +20,7 @@ export default function PersonalDetails({isActive, setIsActive}) {
   <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div id="intro" className="bg-[#
     3EAEAEA] h-auto my-6 py-8 rounded-lg">
-      <div id="avatar" className="lg:flex justify-center py-2">
+      <div id="avatar" className="flex justify-center py-2">
         <img className="w-40 h-43 rounded-xl" src={profile} alt="JB" />
       </div>
       <div id="content" className="prose lg:prose-xl px-2">
