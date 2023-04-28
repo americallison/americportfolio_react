@@ -7,6 +7,7 @@ import Education from './components/Education';
 import Hobbies from './components/Hobbies';
 import { useState } from 'react';
 
+
 export default function App() {
 
   const [isActive, setIsActive] = useState({
@@ -16,6 +17,7 @@ export default function App() {
 
   return (
     <>
+     <div className="bg-cover bg-center h-screen" style={{ backgroundImage: `url('./components/images/profile.jpg')` }}>
     {/* insert the main navbar component */}
     <MainNavBar />
 
@@ -28,7 +30,7 @@ export default function App() {
 
     
 
-     
+     </div>
     </>
   )
 }
