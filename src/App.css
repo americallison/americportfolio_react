@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-image: url("./components/images/profile.jpg");
+  background-size: cover;
 }
 
 .App-logo {

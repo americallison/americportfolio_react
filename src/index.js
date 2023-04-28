@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Projects from './routes/projects';
-import Blog from './routes/blogs';
+import CV from './routes/CV';
 import Contact from './routes/contact';
 
 import {
@@ -28,8 +28,8 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "/blog",
-    element: <Blog />,
+    path: "/cv",
+    element: <CV />,
   },
 
   {

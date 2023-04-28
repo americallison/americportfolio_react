@@ -8,7 +8,7 @@ export default function Education() {
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div id="education" className="bg-[#393e46] h-auto my-6 py-8 rounded-lg border-4">
       <div className="flex justify-center">
-        <h3 className="border-4 w-30 text-black bg-[#f2e7d5] mb-2 text-bold text-2xl rounded px-4 py-4">Education</h3>
+        <h3 className="border-4 w-30 text-black bg-[#f2e7d3] mb-2 text-bold text-2xl rounded px-4 py-4">Education</h3>
       </div>
     
       <details className="px-6 py-4">

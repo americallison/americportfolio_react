@@ -11,13 +11,13 @@ export default function MainNavBar () {
     };
   
     return (
-      <nav className="bg-gray-800">
+      <nav className="bg-gray-700">
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
               <div className="relative flex items-center justify-between h-16">
                   <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                       {/* Mobile menu button */}
                       <button
-                          className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                          className="inline-flex items-center justify-center p-2 rounded-md text-sky-800 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                           aria-expanded="false"
                           onClick={toggleNavbar}
                       >
@@ -47,7 +47,7 @@ export default function MainNavBar () {
                                   xmlns="http://www.w3.org/2000/svg"
                                   fill="none"
                                   viewBox="0 0 24 24"
-                                  stroke="currentColor"
+                                  stroke="white"
                                   aria-hidden="true"
                               >
                                   <path
@@ -68,34 +68,29 @@ export default function MainNavBar () {
                   <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                       {/* Logo */}
                       <div className="flex-shrink-0 flex items-center">
-                          <img
-                              className="block lg:hidden h-8 w-auto"
-                              src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                              alt="Workflow"
-                          />
-                          <h1 className='text-white'>&nbsp;JNV Solutions</h1>
+                          
+                          <h1 className='text-white'>&nbsp;<Link to="/">Americ Allison</Link></h1>
                       </div>
                       {/* Navigation links */}
-                      <div className="hidden sm:block sm:ml-6">
+                      <div className="hidden justify-end sm:block sm:ml-6">
                           <div className="flex space-x-4">
-                              <a
-                                  href="#"
-                                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                              <Link to="/" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                               >
                                   Home
-                              </a>
-                              <a
-                                  href="#"
+                              </Link>
+                              <Link to="/cv" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                              >
+                                  Curriculum Vitae
+                              </Link>
+                              <Link to="/projects" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                              >
+                                              Projects
+                              </Link>
+                              <Link to="/contact"
                                   className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                               >
-                                  About
-                              </a>
-                              <a
-                                  href="#"
-                                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                              >
-                                 Team
-                              </a>
+                                 Contact
+                              </Link>
                              </div>
                              </div>
 </div>
@@ -104,10 +99,10 @@ export default function MainNavBar () {
                   {menuShow ? (
                       <div className="p-2"> 
                       <ul>
-                          <li className='md:hidden p-1 text-stone-300'><a href="#">Home</a></li>
-                          <li className="md:hidden p-1 text-stone-300"><a href="#">About</a></li>
-                          <li className="md:hidden p-1 text-stone-300"><a href="#">Services</a></li>
-                      </ul>
+                          <li className='md:hidden p-1 text-stone-300'><Link to="/">Home</Link></li>
+                          <li className='md:hidden p-1 text-stone-300'><a href="#">About Me</a></li>
+                          <li className="md:hidden p-1 text-stone-300"><Link to="/projects">Projects</Link></li>
+                                </ul>
                       </div>
                   ): ("")}
                  
