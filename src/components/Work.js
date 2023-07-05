@@ -9,6 +9,13 @@
   <div className="flex justify-center">
     <h3 className="border-4 w-30 text-black bg-[#f2e7d5] mb-2 text-bold text-2xl rounded px-4 py-4">Work</h3>
   </div>
+  <details className="px-6 py-4">
+    <summary className="font-bold text-xl text-stone-100">Liberia Electricity Corporation (LEC) (May 2023 - present)</summary>
+    <p  className="text-stone-200 mt-2">I work as a Back-Office Staff at the Liberia Electricity Corporation. I 
+    perform data analysis and create dashboards. I also code web applications and format documents based
+    on specified templates.
+    </p>
+  </details>
 
   <details className="px-6 py-4">
     <summary className="font-bold text-xl text-stone-100">Institute of Basic Technology (February 2022 - present)</summary>
