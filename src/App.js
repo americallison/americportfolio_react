@@ -6,6 +6,7 @@ import Work from './components/Work'
 import Education from './components/Education';
 import Hobbies from './components/Hobbies';
 import { useState } from 'react';
+import LandingBanner from './components/LandingBanner';
 
 
 export default function App() {
@@ -20,6 +21,8 @@ export default function App() {
      <div className="bg-cover bg-center h-screen" style={{ backgroundImage: `url('./components/images/profile.jpg')` }}>
     {/* insert the main navbar component */}
     <MainNavBar />
+
+    <LandingBanner />
 
     {/* insert the personal details component */}
     <PersonalDetails isActive={isActive} setIsActive={setIsActive}/>
