@@ -107,7 +107,7 @@ export default function MainNavBar () {
 </div>
 <div>
                   {menuShow ? (
-                      <div className="p-2 z-50"> 
+                      <div className="fixed inset-0 bg-black bg-opacity-50 z-40 p-2"> 
                       <ul>
                           <li className='md:hidden p-1 text-stone-300'><Link to="/">Home</Link></li>
                           <li className='md:hidden p-1 text-stone-300'><a href="#">About Me</a></li>
