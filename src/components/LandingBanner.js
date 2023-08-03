@@ -23,7 +23,7 @@ const LandingBanner = () => {
               Hello, I am a tech enthusiast presently engaged in Computer
               Education and Programming, Data Analysis and Basic Computer Networking. 
             </p>
-            <button className="mt-5 bg-[#ED553B] hover:bg[#172F5F] text-white px-4 py-2 shadow">
+            <button className="mt-4 bg-[#ED553B] hover:bg[#172F5F] text-white p-3 font-light shadow-lg">
               View my CV
             </button>
           </div>

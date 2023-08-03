@@ -18,22 +18,12 @@ export default function App() {
 
   return (
     <>
-     <div className="bg-cover bg-center h-screen" style={{ backgroundImage: `url('./components/images/profile.jpg')` }}>
-    {/* insert the main navbar component */}
+  
     <MainNavBar />
 
     <LandingBanner />
+  
 
-    {/* insert the personal details component */}
-    <PersonalDetails isActive={isActive} setIsActive={setIsActive}/>
-
-    {
-      isActive.active && isActive.name === "education" ? (<Education /> ): isActive.active && isActive.name === "work" ? (<Work /> ) : (<Hobbies />)
-    }
-
-    
-
-     </div>
     </>
   )
 }
