@@ -14,17 +14,17 @@ const LandingBanner = () => {
           </div>
 
           {/* Text Container */}
-          <div className="md:w-6/12 w-full p-5 bmd:static bg-[#173F5F] bg-opacity-90
-          bg-rounded fixed top-20 h-screen md:h-screen left-0 md:flex md:flex-col md:justify-center">
+          <div className="md:w-5/12 w-full p-5 bmd:static bg-[#173F5F] bg-opacity-90
+          shadow fixed top-20 h-screen md:h-screen left-0 md:flex md:flex-col md:justify-center">
             <h3 className="text-center text-white text-3xl capitalize m-2 font-light">Americ Allison</h3>
             <small className="text-center block text-xl text-white mb-3">
               Aspiring Software Engineer Web Developer, Teacher &amp; Data Analyst</small>
-            <p className="text-justify text-lg mt-2 p-3 m-2 text-[#F6D55C]">
+            <p className="text-lg mt-2 p-3 m-2 text-[#F6D55C]">
               Hello, I am a tech enthusiast presently engaged in Computer
               Education and Programming, Data Analysis and Basic Computer Networking. 
             </p>
             <button className="mt-5 bg-[#ED553B] hover:bg[#172F5F] text-white px-4 py-2 shadow">
-              Get Started
+              View my CV
             </button>
           </div>
         </div>
