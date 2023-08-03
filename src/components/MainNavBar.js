@@ -107,7 +107,7 @@ export default function MainNavBar () {
 </div>
 <div>
                   {menuShow ? (
-                      <div className="p-2"> 
+                      <div className="p-2 z-60"> 
                       <ul>
                           <li className='md:hidden p-1 text-stone-300'><Link to="/">Home</Link></li>
                           <li className='md:hidden p-1 text-stone-300'><a href="#">About Me</a></li>
