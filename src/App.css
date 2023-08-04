@@ -2,6 +2,10 @@ body {
   background-color: #173F5F;
 }
 
+.logo-text {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 
 .profile_img {
   max-height: 600px;

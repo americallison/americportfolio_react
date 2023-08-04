@@ -69,37 +69,37 @@ export default function MainNavBar () {
                       {/* Logo */}
                       <div className="flex-shrink-0 flex items-center">
                           
-                          <h1 className='text-white'>&nbsp;<Link to="/">Americ Allison</Link></h1>
+                          <h1 className='text-white logo-text'>&nbsp;<Link to="/">AMERIC ALLISON</Link></h1>
                       </div>
                       {/* Navigation links */}
                       <div className="hidden justify-end sm:block sm:ml-6">
                           <div className="flex space-x-4">
-                              <Link to="/" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                              <Link to="/" className="text-[#f6d55c] hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                               >
                                   Home
                               </Link>
-                              <Link to="/cv" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                              <Link to="/cv" className="text-[#f6d55c] hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                               >
                                   Curriculum Vitae
                               </Link>
-                              <Link to="/projects" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                              <Link to="/projects" className="text-[#f6d55c] hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                               >
                                               Projects
                               </Link>
                               <Link to="/contact"
-                                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                  className="text-[#f6d55c] hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                               >
                                  Contact
                               </Link>
-                              <Link to="#"
-                                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                              <Link to="/skills"
+                                  className="text-[#f6d55c] hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                               >
-                                 Professional Development Plan
+                                 Skills
                               </Link>
-                              <Link to="#"
-                                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                              <Link to="/about"
+                                  className="text-[#f6d55c] hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                               >
-                                 FPS Virtual Assignment
+                                 About Me
                               </Link>
                              </div>
                              </div>
@@ -109,9 +109,12 @@ export default function MainNavBar () {
                   {menuShow ? (
                       <div className="fixed inset-0 bg-black bg-opacity-50 z-40 p-2"> 
                       <ul>
-                          <li className='md:hidden p-1 text-stone-300'><Link to="/">Home</Link></li>
-                          <li className='md:hidden p-1 text-stone-300'><a href="#">About Me</a></li>
-                          <li className="md:hidden p-1 text-stone-300"><Link to="/projects">Projects</Link></li>
+                          <li className='md:hidden p-1 text-[#f6d55c]'><Link to="/">Home</Link></li>
+                          <li className='md:hidden p-1 text-[#f6d55c]'><Link to="/cv">CV</Link></li>
+                          <li className="md:hidden p-1 text-[#f6d55c]"><Link to="/projects">Projects</Link></li>
+                          <li className='md:hidden p-1 text-[#f6d55c]'><a href="/contact">Contact</a></li>
+                          <li className='md:hidden p-1 text-[#f6d55c]'><a href="/skills">Skills</a></li>
+                          <li className='md:hidden p-1 text-[#f6d55c]'><a href="/about">About Me</a></li>
                                 </ul>
                       </div>
                   ): ("")}

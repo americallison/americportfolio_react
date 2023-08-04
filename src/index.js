@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import Projects from './routes/projects';
 import CV from './routes/CV';
 import Contact from './routes/contact';
+import Skills from './routes/skills';
+import About from './routes/about';
 
 import {
   createBrowserRouter,

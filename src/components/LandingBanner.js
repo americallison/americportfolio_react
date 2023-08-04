@@ -10,10 +10,10 @@ const LandingBanner = () => {
   <div className="md:flex block">
     {/* Text Container */}
     <div className="md:w-6/12 w-full p-5 bg-[#173F5F] bg-opacity-90 flex flex-col justify-center">
-      <h3 className="text-[#f6d55c] text-5xl ml-5 md:mt-16 mt-5 mb-3 px-5 pt-3 font-bold">
+      <h3 className="text-[#f6d55c] text-5xl md:ml-5 md:mt-16 m-2 md:mr-5 md:mb-3 px-5 pt-3 font-bold">
         Americ Allison
       </h3>
-      <small className="block text-xl text-white px-5 ml-5 mt-1">
+      <small className="block text-xl text-white px-5 md:ml-5 md:mt-1 mt-1">
         Aspiring Software Engineer Web Developer, Teacher &amp; Data Analyst
       </small>
       <p className="text-lg mb-3 px-5 pt-3 ml-5 mt-3 text-[#F6D55C]">
