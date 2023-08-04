@@ -13,16 +13,16 @@ const LandingBanner = () => {
       <h3 className="text-[#f6d55c] text-5xl md:ml-5 md:mt-16 m-2 md:mr-5 md:mb-3 ms:px-5 md:pt-3 font-bold">
         Americ Allison
       </h3>
-      <small className="block text-xl text-white md:px-5 md:ml-5 md:mt-1 mt-1">
+      <small className="block text-xl text-white md:px-5 md:ml-5 m-2 md:mt-1 mt-1">
         Aspiring Software Engineer Web Developer, Teacher &amp; Data Analyst
       </small>
-      <p className="text-lg mb-3 md:px-5 md:pt-3 ml-5 mt-3 text-[#F6D55C]">
+      <p className="text-lg m-2 md:mb-3 md:px-5 md:pt-3 md:ml-5 md:mt-3 text-[#F6D55C]">
         Hello, I am a tech enthusiast presently engaged in Computer
         Education and Programming, Data Analysis and Basic Computer Networking.
       </p>
       <div>
         <Link to="/cv" className="md:m-5 m-2">
-          <button className="bg-[#ED553B] hover:bg-[#172F5F] text-xl text-white md:p-3 font-light shadow-lg
+          <button className="bg-[#ED553B] hover:bg-[#172F5F] text-xl text-white p-3 font-light shadow-lg
           animate-fade-in-button delay-2000">
             View my CV
           </button>
