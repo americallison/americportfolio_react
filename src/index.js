@@ -38,6 +38,16 @@ const router = createBrowserRouter([
     path: "/contact",
     element: <Contact />,
   },
+
+  {
+    path: "/skills",
+    element: <Skills />,
+  },
+
+  {
+    path: "/about",
+    element: <About />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
