@@ -32,7 +32,7 @@ const LandingBanner = () => {
 
     {/* Image Banner */}
     <div
-      className="md:w-6/12 shadow-lg rounded-sm w-full animate-fade-in-image delay-3000"
+      className="md:w-6/12 w-full shadow-lg rounded-sm w-full animate-fade-in-image delay-3000"
       style={{
         backgroundImage: `url(${profile})`,
         backgroundSize: 'cover',
@@ -45,18 +45,18 @@ const LandingBanner = () => {
     <p className="text-white p-5 ml-5 mt-4 text-xl">Check me out on:</p>
   </div>
 
-  <div className="flex mt-3">
-    <div className="md:w-4/12 p-3 m-4">
+  <div className="flex mt-3 animate-fade-in-image delay-3000">
+    <div className="md:w-4/12 w-full p-3 m-4">
       <button className="text-white w-full text-xl bg-[#ed553b] font-light p-4 m-2">
         LinkedIn
       </button>
     </div>
-    <div className="md:w-4/12 p-3 m-4">
+    <div className="md:w-4/12 w-full p-3 m-4">
       <button className="text-white w-full text-xl bg-[#ed553b] font-light p-4 m-2">
         GitHub
       </button>
     </div>
-    <div className="md:w-4/12 p-3 m-4">
+    <div className="md:w-4/12 p-3 w-full m-4">
       <button className="text-white w-full text-xl bg-[#ed553b] font-light p-4 m-2">
         Stack Overflow
       </button>
