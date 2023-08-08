@@ -1,6 +1,8 @@
 import React from 'react';
 import profile from "../components/images/profile.jpg";
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faNoteSticky } from '@fortawesome/free-solid-svg-icons'
 
 const LandingBanner = () => {
   return (
@@ -23,7 +25,7 @@ const LandingBanner = () => {
       <div>
         <Link to="/cv" className="md:m-5 m-2">
           <button className="bg-[#ED553B] hover:bg-[#172F5F] text-xl text-white p-3 font-light shadow-lg
-          animate-fade-in-button delay-2000">
+          animate-fade-in-button delay-2000"><FontAwesomeIcon icon={faNoteSticky} />&nbsp;
             View my CV
           </button>
         </Link>
