@@ -18,7 +18,7 @@ export default function CV() {
       </button>
         <h1>Curriculum Vitae of Americ Allison</h1>
         <p>+231880-832727</p>
-        <p className='text-sky-500 mb-4'><a href="https://www.linkedin.com/in/americ-allison" target='_blank'>
+        <p className='text-sky-500 mb-4'><a href="https://www.linkedin.com/in/americ-allison-7a15ab166" target='_blank'>
         LinkedIn</a></p>
         <h3 className='text-xl'>Skills Summary Statement</h3><hr />
         <p className='mb-4'>Skilled and experienced professional with a range of core competencies and skills, 
