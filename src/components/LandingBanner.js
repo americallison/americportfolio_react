@@ -48,22 +48,22 @@ const LandingBanner = () => {
 
 <hr></hr>
   <div className="flex block md:mt-1 animate-fade-in-image delay-3000">
-    <div className="md:w-3/12">
+    <div className="w-3/12">
       <button className="text-white w-full text-4xl font-light p-4 m-2">
       <FontAwesomeIcon icon={faLinkedinIn} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#1f86fb]" />
-      </button><p className="text-center p-3">LinkedIn</p>
+      </button>
     </div>
-    <div className="md:w-3/12">
+    <div className="w-3/12">
       <button className="text-white w-full text-4xl font-light p-4 m-2">
       <FontAwesomeIcon icon={faGithubAlt} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#000000]" />
-      </button>GitHub
+      </button>
     </div>
-    <div className="md:w-3/12">
+    <div className="w-3/12">
       <button className="text-[#ef6c01] w-full text-4xl font-light p-4 m-2">
       <FontAwesomeIcon icon={faStackOverflow} className="p-3 rounded shadow hover:scale-105 m-2"/>
-      </button>Stack Overflow
+      </button>
     </div>
-    <div className="md:w-3/12">
+    <div className="w-3/12">
       <button className="text-white w-full text-4xl font-light p-4 m-2">
       <FontAwesomeIcon icon={faFacebook} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#2b7494]"/>
       </button>
