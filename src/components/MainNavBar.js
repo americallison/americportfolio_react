@@ -107,9 +107,9 @@ export default function MainNavBar () {
 </div>
 <div>
                   {menuShow ? (
-                      <div className="absolute inset-top-[12] inset-left-[2] bg- z-40 p-5"> 
+                      <div className="absolute w-full inset-top-[12] inset-left-[2] bg-[#031627] z-40 p-5"> 
                       <ul>
-                          <li className='md:hidden p-1 text-[#389F91]'><Link to="/">Home</Link></li>
+                          <li className='md:hidden w-full p-1 text-white'><Link to="/">Home</Link></li>
                           <li className='md:hidden p-1 text-[#389F91]'><Link to="/cv">CV</Link></li>
                           <li className="md:hidden p-1 text-[#389F91]"><Link to="/projects">Projects</Link></li>
                           <li className="md:hidden p-1 text-[#389F91]"><Link to="/contact">Contact</Link></li>
