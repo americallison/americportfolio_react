@@ -31,7 +31,7 @@ const LandingBanner = () => {
       </small>
       <p className="text-lg m-2 md:mb-3 text-stone-400 mb-2 md:pt-3 md:ml-5 md:mt-2">
         Hello, I am a tech enthusiast presently engaged in Computer
-        Education and Programming, Data Analysis and Basic Computer Networking.
+        Education, Programming and Data Analysis.
       </p>
       <div className='mt-3 mb-2'>
         <Link to="/cv" className="md:m-5 mt-3 ml-2 mb-3">
