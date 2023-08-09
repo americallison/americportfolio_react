@@ -3,7 +3,7 @@ import profile from "../components/images/profile.jpg";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookOpen } from '@fortawesome/free-solid-svg-icons';
-import { faGithubAlt, faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
+import { faGithubAlt, faLinkedinIn, faStackOverflow, faFacebook} from '@fortawesome/free-brands-svg-icons';
 
 
 const LandingBanner = () => {
@@ -46,21 +46,27 @@ const LandingBanner = () => {
    
   </div>
 
-  <div className="md:flex block md:mt-1 animate-fade-in-image delay-3000">
-    <div className="md:w-4/12 w-full p-3 m-4">
-      <button className="text-white w-full text-xl bg-[#ed553b] font-light p-4 m-2">
-      <FontAwesomeIcon icon={faGithubAlt} />&nbsp;LinkedIn
-      </button>
+  <div className="flex block md:mt-1 animate-fade-in-image delay-3000">
+    <div className="md:w-3/12 w-full">
+      <button className="text-white w-full text-4xl font-light p-4 m-2">
+      <FontAwesomeIcon icon={faLinkedinIn} 
+      className="p-3 rounded shadow hover:scale-105 m-2 bg-[#ef6c01]" />
+      </button><p className="text-center">LinkedIn</p>
     </div>
-    <div className="md:w-4/12 w-full p-3 m-4">
-      <button className="text-white w-full text-xl bg-[#ed553b] font-light p-4 m-2">
-      <FontAwesomeIcon icon={faGithubAlt} />&nbsp;GitHub
-      </button>
+    <div className="md:w-3/12 w-full">
+      <button className="text-white w-full text-4xl font-light p-4 m-2">
+      <FontAwesomeIcon icon={faGithubAlt} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#ef6c01]" />
+      </button>GitHub
     </div>
-    <div className="md:w-4/12 p-3 w-full m-4">
-      <button className="text-white w-full text-xl bg-[#ed553b] font-light p-4 m-2">
-        Stack Overflow
-      </button>
+    <div className="md:w-3/12 w-full">
+      <button className="text-white w-full text-4xl font-light p-4 m-2">
+      <FontAwesomeIcon icon={faStackOverflow} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#ef6c01]"/>
+      </button>Stack Overflow
+    </div>
+    <div className="md:w-3/12 w-full">
+      <button className="text-white w-full text-4xl font-light p-4 m-2">
+      <FontAwesomeIcon icon={faFacebook} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#ef6c01]"/>
+      </button>Facebook
     </div>
   </div>
 </div>;
