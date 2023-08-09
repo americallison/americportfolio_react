@@ -1,6 +1,7 @@
 import React from 'react';
 import MainNavBar from '../components/MainNavBar';
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
+
 export default function Contact() {
     return (
         <>
@@ -10,8 +11,8 @@ export default function Contact() {
                     <div class="flex flex-wrap lg:justify-between mx-5 px-3">
                         <div class="w-full lg:w-1/2 xl:w-6/12 px-4">
                             <div class="max-w-[570px] mb-12 lg:mb-0">
-                                <span class="block mb-4 text-base text-primary font-semibold">
-                                    Contact 
+                                <span class="block mb-4 gont-light">
+                                    Contact Me
                                 </span><hr />
                                 <h2
                                     class="

@@ -23,7 +23,7 @@ const LandingBanner = () => {
     ></div>
     {/* Text Container */}
     <div className="md:w-6/12 w-full p-5 bg-opacity-90 flex flex-col justify-center">
-      <h3 className="text-[#031627] text-4xl md:ml-5 md:mt-5 m-2 md:mr-5 md:mb-3 ms:px-5 md:pt-3 font-bold">
+      <h3 className="text-[#031627] text-4xl md:ml-5 md:mt-5 m-2 md:mr-5 md:mb-3 md:pt-3 font-bold">
         Americ Allison
       </h3>
       <small className="text-xl md:ml-5 text-[#ef6c01] m-2 md:mt-1 mt-1">
@@ -47,7 +47,7 @@ const LandingBanner = () => {
   </div>
 
 <hr></hr>
-  <div className="flex block md:mt-2 mt-3 animate-fade-in-image delay-3000">
+  <div className="flex block md:mt-2 mt-2 animate-fade-in-image delay-3000">
     <div className="w-3/12">
     <a href="https://www.linkedin.com/in/americ-allison-7a15ab166" target='_blank'> <button className="text-white w-full text-4xl font-light p-2">
       <FontAwesomeIcon icon={faLinkedinIn} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#1f86fb]" />
