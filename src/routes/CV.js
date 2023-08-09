@@ -1,5 +1,9 @@
 import React from 'react';
 import MainNavBar from '../components/MainNavBar';
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBookOpen } from '@fortawesome/free-solid-svg-icons';
+import { faGithubAlt, faLinkedinIn, faStackOverflow, faFacebook} from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -14,7 +18,7 @@ export default function CV() {
       </button>
         <h1>Curriculum Vitae of Americ Allison</h1>
         <p>+231880-832727</p>
-        <p className='text-sky-500 mb-4'><a href="https://www.linked.com/in/americ-allison">
+        <p className='text-sky-500 mb-4'><a href="https://www.linkedin.com/in/americ-allison" target='_blank'>
         LinkedIn</a></p>
         <h3 className='text-xl'>Skills Summary Statement</h3><hr />
         <p className='mb-4'>Skilled and experienced professional with a range of core competencies and skills, 
