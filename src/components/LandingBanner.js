@@ -33,8 +33,8 @@ const LandingBanner = () => {
         Hello, I am a tech enthusiast presently engaged in Computer
         Education and Programming, Data Analysis and Basic Computer Networking.
       </p>
-      <div>
-        <Link to="/cv" className="md:m-5 mt-3 mb-3">
+      <div className='mt-3 mb-2'>
+        <Link to="/cv" className="md:m-5 mt-3 ml-2 mb-3">
           <button className="bg-[#EF6C01] hover:bg-[#172F5F] rounded text-xl text-white p-3 font-light shadow-lg
           animate-fade-in-button delay-2000 bg-gradient-to-r from-[#031697] to-[#E8373A]"><FontAwesomeIcon icon={faBookOpen} />&nbsp;
             View my CV
@@ -47,7 +47,7 @@ const LandingBanner = () => {
   </div>
 
 <hr></hr>
-  <div className="flex block md:mt-2 animate-fade-in-image delay-3000">
+  <div className="flex block md:mt-2 mt-3 animate-fade-in-image delay-3000">
     <div className="w-3/12">
       <button className="text-white w-full text-4xl font-light p-2">
       <FontAwesomeIcon icon={faLinkedinIn} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#1f86fb]" />
