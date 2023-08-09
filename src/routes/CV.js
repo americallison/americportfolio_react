@@ -9,6 +9,9 @@ export default function CV() {
     <>
     <MainNavBar />
     <div className='p-10 m-7 text-white'>
+      <button>
+        
+      </button>
         <h1>Curriculum Vitae of Americ Allison</h1>
         <p>+231880-832727</p>
         <p className='text-sky-500 mb-4'><a href="https://www.linked.com/in/americ-allison">
