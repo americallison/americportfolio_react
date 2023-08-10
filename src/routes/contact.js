@@ -1,12 +1,15 @@
 import React from 'react';
 import MainNavBar from '../components/MainNavBar';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBookOpen } from '@fortawesome/free-solid-svg-icons';
+import { faGithubAlt, faLinkedinIn, faGoogle, faStackOverflow, faFacebook, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 
 export default function Contact() {
     return (
         <>
-        <MainNavBar />
-            <section class="bg-white py-20 lg:py-[120px] overflow-hidden relative z-10">
+            <MainNavBar />
+            <section class="bg-white py-10 lg:py-[80px] overflow-hidden relative z-10">
                 <div class="container">
                     <div class="flex flex-wrap lg:justify-between mx-5 px-3">
                         <div class="w-full lg:w-1/2 xl:w-6/12 px-4">
@@ -27,17 +30,46 @@ export default function Contact() {
                   "
                                 >
                                     GET IN TOUCH WITH&nbsp;
-                                    
-                                    <Link to="/"><span class="text-blue-700">AMERIC ALLISON</span></Link>
+
+                                    <Link to="/"><span class="text-[#2b7494]">AMERIC ALLISON</span></Link>
                                 </h2>
                                 <p class="text-base text-body-color leading-relaxed mb-5">
-                                   Contact me today and feel the difference. I am just an inch away if you need to learn Python Programming,
-                                   React JS, or develop your website or web application.
+                                    Contact me today and feel the difference. I am just an inch away if you need to learn Python Programming,
+                                    React JS, or develop your website or web application.
                                 </p>
-                                <h4 className="mb-9">Check me out on&nbsp;
-                                   <a className="text-blue-700  text-xl" href="https://github.com/americallison" target="_blank">GitHub</a>
-                                </h4>
-                            
+                                <div className="flex justify-between">
+                                    <div className="w-3/12">
+                                        <a href="https://www.linkedin.com/in/americ-allison-7a15ab166" target='_blank'> <button className="text-[#d62828] w-full text-4xl font-light p-2">
+                                            <FontAwesomeIcon icon={faGoogle} className="p-3 rounded shadow hover:scale-105 m-2 bg-white" />
+                                        </button></a>
+                                    </div>
+                                    <div className="w-3/12">
+                                        <a href="https://www.linkedin.com/in/americ-allison-7a15ab166" target='_blank'> <button className="text-white w-full text-4xl font-light p-2">
+                                            <FontAwesomeIcon icon={faWhatsapp} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#08a045]" />
+                                        </button></a>
+                                    </div>
+                                    <div className="w-3/12">
+                                        <a href="https://www.linkedin.com/in/americ-allison-7a15ab166" target='_blank'> <button className="text-white w-full text-4xl font-light p-2">
+                                            <FontAwesomeIcon icon={faFacebook} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#1f86fb]" />
+                                        </button></a>
+                                    </div>
+                                    <div className="w-3/12">
+                                        <a href="https://www.linkedin.com/in/americ-allison-7a15ab166" target='_blank'> <button className="text-white w-full text-4xl font-light p-2">
+                                            <FontAwesomeIcon icon={faLinkedinIn} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#1f86fb]" />
+                                        </button></a>
+                                        <div className="w-3/12">
+    <a href="https://www.github.com/americallison" target='_blank'> <button className="text-white w-full text-4xl font-light p-2">
+      <FontAwesomeIcon icon={faGithubAlt} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#000000]" />
+      </button></a>
+    </div>
+    
+                                        <div className="w-3/12">
+    <a href="https://stackoverflow.com/users/22338304/allisonameric" target='_blank'> <button className="text-[#ef6c01] w-full text-4xl font-light p-2">
+      <FontAwesomeIcon icon={faStackOverflow} className="p-3 rounded shadow hover:scale-105 m-2"/>
+      </button></a>
+    </div>
+                                    </div>
+                                </div>
 
                             </div>
                         </div>

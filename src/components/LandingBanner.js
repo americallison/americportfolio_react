@@ -37,7 +37,7 @@ const LandingBanner = () => {
       <div className='mt-3 mb-2'>
         <Link to="/projects" className="md:m-5 mt-3 ml-2 mb-2">
           <button className="bg-[#EF6C01] text-xl text-white p-3 font-light shadow-lg
-          animate-fade-in-button delay-2000 bg-gradient-to-r from-[#031697] to-[#E8373A]"><FontAwesomeIcon icon={faBookOpen} />&nbsp;
+          animate-fade-in-button delay-2000 bg-gradient-to-r from-[#2b7494] to-[#E8373A]"><FontAwesomeIcon icon={faBookOpen} />&nbsp;
             View my projects
           </button>
         </Link>
@@ -54,16 +54,7 @@ const LandingBanner = () => {
       <FontAwesomeIcon icon={faLinkedinIn} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#1f86fb]" />
       </button></a>
     </div>
-    <div className="w-3/12">
-    <a href="https://www.github.com/americallison" target='_blank'> <button className="text-white w-full text-4xl font-light p-2">
-      <FontAwesomeIcon icon={faGithubAlt} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#000000]" />
-      </button></a>
-    </div>
-    <div className="w-3/12">
-    <a href="https://stackoverflow.com/users/22338304/allisonameric" target='_blank'> <button className="text-[#ef6c01] w-full text-4xl font-light p-2">
-      <FontAwesomeIcon icon={faStackOverflow} className="p-3 rounded shadow hover:scale-105 m-2"/>
-      </button></a>
-    </div>
+    
     <div className="w-3/12">
     <a href="https://www.facebook.com/americ-sorin-allison" target='_blank'> <button className="text-white w-full text-4xl font-light p-2">
       <FontAwesomeIcon icon={faFacebook} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#2b7494]"/>

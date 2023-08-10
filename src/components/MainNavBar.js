@@ -14,7 +14,7 @@ export default function MainNavBar() {
     };
 
     return (
-        <nav className="z-60">
+        <nav className="z-60 bg-[#031627]">
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
                 <div className="relative flex items-center justify-between h-16">
                     <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -50,7 +50,7 @@ export default function MainNavBar() {
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="none"
                                         viewBox="0 0 24 24"
-                                        stroke="black"
+                                        stroke="white"
                                         aria-hidden="true"
                                     >
                                         <path
@@ -72,35 +72,35 @@ export default function MainNavBar() {
                         {/* Logo */}
                         <div className="flex-shrink-0 flex items-center">
 
-                            <h1 className='text-[#252B48] font-bold logo-text'>&nbsp;<Link to="/">PABS TECH</Link></h1>
+                            <h1 className='text-["e5B891] font-bold logo-text'>&nbsp;<Link to="/">PABS TECH</Link></h1>
                         </div>
                         {/* Navigation links */}
                         <div className="hidden justify-end sm:block sm:ml-6">
                             <div className="flex space-x-4">
-                                <Link to="/" className="text-[#389F91] hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                <Link to="/" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                 >
                                     Home
                                 </Link>
-                                <Link to="/cv" className="text-[#389F91] hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                <Link to="/cv" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                 >
                                     Curriculum Vitae
                                 </Link>
-                                <Link to="/projects" className="text-[#389F91] hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                <Link to="/projects" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                 >
                                     Projects
                                 </Link>
                                 <Link to="/contact"
-                                    className="text-[#389F91] hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                    className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                 >
                                     Contact
                                 </Link>
                                 <Link to="/skills"
-                                    className="text-[#389F91] hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                    className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                 >
                                     Skills
                                 </Link>
                                 <Link to="/about"
-                                    className="text-[#389F91] hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                    className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                 >
                                     About Me
                                 </Link>
