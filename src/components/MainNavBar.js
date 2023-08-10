@@ -110,14 +110,14 @@ export default function MainNavBar() {
                 </div>
                 <div>
                     {menuShow ? (
-                        <div className="absolute w-60 inset-top-[12] bg-opacity-90 bg-[#031627] z-40 p-4">
+                        <div className="absolute w-60 inset-top-[12] bg-opacity-90 bg-[#031627] z-40 p-3">
                             <ul>
-                                <li className='md:hidden w-full p-1 text-white'><Link to="/"><FontAwesomeIcon icon={faHomeAlt} />&nbsp;Home</Link></li>
-                                <li className='md:hidden p-1 text-white'><Link to="/cv"><FontAwesomeIcon icon={faBookOpen} />&nbsp;CV</Link></li>
-                                <li className="md:hidden p-1 text-white"><Link to="/projects"><FontAwesomeIcon icon={faHomeAlt} />&nbsp;Projects</Link></li>
-                                <li className="md:hidden p-1 text-white"><Link to="/contact"><FontAwesomeIcon icon={faMobilePhone} />&nbsp;Contact</Link></li>
-                                <li className='md:hidden p-1 text-white'><Link to="/skills"><FontAwesomeIcon icon={faUserCog} />&nbsp;Skills</Link></li>
-                                <li className='md:hidden p-1 text-white'><Link to="/about"><FontAwesomeIcon icon={faBookAtlas} />&nbsp;About Me</Link></li>
+                                <li className='md:hidden p-2 text-white'><Link to="/"><FontAwesomeIcon icon={faHomeAlt} />&nbsp;Home</Link></li>
+                                <li className='md:hidden p-2 text-white'><Link to="/cv"><FontAwesomeIcon icon={faBookOpen} />&nbsp;CV</Link></li>
+                                <li className="md:hidden p-2 text-white"><Link to="/projects"><FontAwesomeIcon icon={faHomeAlt} />&nbsp;Projects</Link></li>
+                                <li className="md:hidden p-2 text-white"><Link to="/contact"><FontAwesomeIcon icon={faMobilePhone} />&nbsp;Contact</Link></li>
+                                <li className='md:hidden p-2 text-white'><Link to="/skills"><FontAwesomeIcon icon={faUserCog} />&nbsp;Skills</Link></li>
+                                <li className='md:hidden p-2 text-white'><Link to="/about"><FontAwesomeIcon icon={faBookAtlas} />&nbsp;About Me</Link></li>
                             </ul>
                         </div>
                     ) : ("")}

@@ -26,8 +26,9 @@ const LandingBanner = () => {
       <h3 className="text-[#2b7494] text-4xl md:ml-5 md:mt-5 m-2 md:mr-5 md:mb-3 md:pt-3 font-bold">
         Americ Allison
       </h3>
-      <small className="text-xl md:ml-5 text-[#ef6c01] m-2 md:mt-1 mt-1">
-        Aspiring Software Engineer Web Developer, Teacher &amp; Data Analyst
+      <small className="text-xl md:ml-5 text-[#ef6c01] m-2 md:mt-1">
+        Aspiring Software Engineer <span className='text-stone-400'>|</span> Web Developer&nbsp;
+        <span className='text-stone-400'>|</span> Teacher <span className='text-stone-400'>|</span> Data Analyst
       </small>
       <p className="text-lg m-2 md:mb-3 text-stone-400 mb-2 md:pt-3 md:ml-5 md:mt-2">
         Hello, I am a tech enthusiast presently engaged in Computer
@@ -47,26 +48,26 @@ const LandingBanner = () => {
   </div>
 
 <hr></hr>
-  <div className="flex block md:mt-2 mt-2 animate-fade-in-image delay-3000">
+  <div className="flex block md:mt-2 mt-1 animate-fade-in-image delay-3000">
     <div className="w-3/12">
     <a href="https://www.linkedin.com/in/americ-allison-7a15ab166" target='_blank'> <button className="text-white w-full text-4xl font-light p-2">
       <FontAwesomeIcon icon={faLinkedinIn} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#1f86fb]" />
       </button></a>
     </div>
     <div className="w-3/12">
-      <button className="text-white w-full text-4xl font-light p-2">
+    <a href="https://www.github.com/americallison" target='_blank'> <button className="text-white w-full text-4xl font-light p-2">
       <FontAwesomeIcon icon={faGithubAlt} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#000000]" />
-      </button>
+      </button></a>
     </div>
     <div className="w-3/12">
-      <button className="text-[#ef6c01] w-full text-4xl font-light p-2">
+    <a href="https://stackoverflow.com/users/22338304/allisonameric" target='_blank'> <button className="text-[#ef6c01] w-full text-4xl font-light p-2">
       <FontAwesomeIcon icon={faStackOverflow} className="p-3 rounded shadow hover:scale-105 m-2"/>
-      </button>
+      </button></a>
     </div>
     <div className="w-3/12">
-      <button className="text-white w-full text-4xl font-light p-2">
+    <a href="https://www.facebook.com/americ-sorin-allison" target='_blank'> <button className="text-white w-full text-4xl font-light p-2">
       <FontAwesomeIcon icon={faFacebook} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#2b7494]"/>
-      </button>
+      </button></a>
     </div>
   </div>
 </div>;
