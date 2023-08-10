@@ -32,7 +32,7 @@ export default function CV() {
         <p className="font-medium ml-3 mt-2 text-[#031627]">Trainer (USAID Youth Advanced Project)</p>
         <div className='flex justify-start'>
           <p className="text-[#031627] ml-3">Institute of Basic Technology</p>
-          <p className="text-[#031627] ml-16 md:ml-64">May 2023 - present</p>
+          <p className="text-[#031627] ml-3">May 2023 - April 2023</p>
         </div>
         <ul>
           <li className='text-[#ef6c01] ml-6 m-1'>- prepares, conducts, and supervises hands-on work readiness activities</li>
@@ -45,7 +45,7 @@ export default function CV() {
         <p className="font-medium ml-3 mt-5 text-[#031627]">Information Technology Mentor</p>
         <div className='flex justify-start'>
           <p className="text-[#031627] ml-3">Institute of Basic Technology</p>
-          <p className="text-[#031627] ml-16 md:ml-64">2022 - present</p>
+          <p className="text-[#031627] ml-3">2022 - present</p>
         </div>
         <ul>
           <li className='text-[#ef6c01] ml-6 m-1'>- teaches computer literacy and Python Programming</li>
@@ -53,10 +53,17 @@ export default function CV() {
         <a className="text-sky-400 ml-3" href="https://www.institutebasictechnology.org">https://www.institutebasictechnology.org</a>
 
         <p className="font-medium ml-3 mt-5 text-[#031627]">Resource Room and Computer Lab Assistant</p>
-        <div className='flex justify-start'>
+      
           <p className="text-[#031627] ml-3">Cuttington University</p>
-          <p className="text-[#031627] ml-16 md:ml-64">December 2016 - January 2021</p>
-        </div>
+          <p className="text-[#031627] ml-3">December 2016 - January 2021</p>
+            <ul>
+          <li className='text-[#ef6c01] ml-6 m-1'>- assisted faculty and students with research and data analysis</li>
+        </ul>
+        <a className="text-sky-400 ml-3" href="https://www.cu.edu.lr">https://www.cu.edu.lr</a>
+
+        <p className="font-medium ml-3 mt-5 text-[#031627]">Algebra Teacher</p>
+          <p className="text-[#031627] ml-3">Calvary Baptist Church School System (CBCSS)</p>
+          <p className="text-[#031627] ml-3">September 2017 - September 2018</p>
         <ul>
           <li className='text-[#ef6c01] ml-6 m-1'>- assisted faculty and students with research and data analysis</li>
         </ul>
