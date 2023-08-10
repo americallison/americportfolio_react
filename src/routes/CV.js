@@ -36,10 +36,10 @@ export default function CV() {
 
         <h3 className='text-xl m-2 font-bold text-[#031627]'>Professional Experience</h3><hr />
         <p className="font-medium ml-3 mt-2 text-[#031627]">Trainer (USAID Youth Advanced Project)</p>
-        <div className='flex justify-start'>
+     
           <p className="text-[#031627] ml-3">Institute of Basic Technology</p>
           <p className="text-[#031627] ml-3">May 2023 - April 2023</p>
-        </div>
+        
         <ul>
           <li className='text-[#ef6c01] ml-6 m-1'>- prepares, conducts, and supervises hands-on work readiness activities</li>
           <li className='text-[#ef6c01] ml-6 m-1'>- delivers lectures and provides clarity on course materials,
