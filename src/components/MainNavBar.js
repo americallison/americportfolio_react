@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBookOpen, faHomeAlt } from '@fortawesome/free-solid-svg-icons';
+import { faBookOpen, faHomeAlt, faMobilePhone, faBookAtlas } from '@fortawesome/free-solid-svg-icons';
 import { faYahoo} from '@fortawesome/free-brands-svg-icons';
 
 export default function MainNavBar() {
@@ -110,14 +110,14 @@ export default function MainNavBar() {
                 </div>
                 <div>
                     {menuShow ? (
-                        <div className="absolute w-full inset-top-[12] bg-[#031627] z-40 p-5">
+                        <div className="absolute w-60 inset-top-[12] bg-opacity-90 bg-[#031627] z-40 p-4">
                             <ul>
                                 <li className='md:hidden w-full p-1 text-white'><Link to="/"><FontAwesomeIcon icon={faHomeAlt} />&nbsp;Home</Link></li>
-                                <li className='md:hidden p-1 text-[#389F91]'><Link to="/cv">CV</Link></li>
-                                <li className="md:hidden p-1 text-[#389F91]"><Link to="/projects">Projects</Link></li>
-                                <li className="md:hidden p-1 text-[#389F91]"><Link to="/contact">Contact</Link></li>
-                                <li className='md:hidden p-1 text-[#f6d55c]'><Link to="/skills">Skills</Link></li>
-                                <li className='md:hidden p-1 text-[#f6d55c]'><Link to="/about">About Me</Link></li>
+                                <li className='md:hidden p-1 text-white'><Link to="/cv"><FontAwesomeIcon icon={faBook} />&nbsp;CV</Link></li>
+                                <li className="md:hidden p-1 text-white"><Link to="/projects"><FontAwesomeIcon icon={faHomeAlt} />&nbsp;Projects</Link></li>
+                                <li className="md:hidden p-1 text-white"><Link to="/contact"><FontAwesomeIcon icon={faMobilePhone} />&nbsp;Contact</Link></li>
+                                <li className='md:hidden p-1 text-white'><Link to="/skills"><FontAwesomeIcon icon={faHomeAlt} />&nbsp;Skills</Link></li>
+                                <li className='md:hidden p-1 text-white'><Link to="/about"><FontAwesomeIcon icon={faBookAtlas} />&nbsp;About Me</Link></li>
                             </ul>
                         </div>
                     ) : ("")}
