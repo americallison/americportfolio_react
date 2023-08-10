@@ -57,17 +57,6 @@ export default function Contact() {
                                         <a href="https://www.linkedin.com/in/americ-allison-7a15ab166" target='_blank'> <button className="text-white w-full text-4xl font-light p-2">
                                             <FontAwesomeIcon icon={faLinkedinIn} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#1f86fb]" />
                                         </button></a>
-                                        <div className="w-3/12">
-    <a href="https://www.github.com/americallison" target='_blank'> <button className="text-white w-full text-4xl font-light p-2">
-      <FontAwesomeIcon icon={faGithubAlt} className="p-3 rounded shadow hover:scale-105 m-2 bg-[#000000]" />
-      </button></a>
-    </div>
-    
-                                        <div className="w-3/12">
-    <a href="https://stackoverflow.com/users/22338304/allisonameric" target='_blank'> <button className="text-[#ef6c01] w-full text-4xl font-light p-2">
-      <FontAwesomeIcon icon={faStackOverflow} className="p-3 rounded shadow hover:scale-105 m-2"/>
-      </button></a>
-    </div>
                                     </div>
                                 </div>
 
