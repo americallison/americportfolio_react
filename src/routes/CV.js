@@ -2,7 +2,7 @@ import React from 'react';
 import MainNavBar from '../components/MainNavBar';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBookOpen } from '@fortawesome/free-solid-svg-icons';
+import { faPrint, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { faGithubAlt, faLinkedinIn, faStackOverflow, faFacebook} from '@fortawesome/free-brands-svg-icons';
 
 
@@ -12,15 +12,20 @@ export default function CV() {
   return (
     <>
     <MainNavBar />
-    <div className='p-10 m-7 text-white'>
-      <button>
-        
+    <div className='p-5 md:m-5 m-2 text-white'>
+    <div className='flex'>
+      <button className='bg-[#ef6c01] p-3 m-2 text-white'>
+      <FontAwesomeIcon icon={faPrint} />&nbsp;Print CV
       </button>
-        <h1>Curriculum Vitae of Americ Allison</h1>
-        <p>+231880-832727</p>
-        <p className='text-sky-500 mb-4'><a href="https://www.linkedin.com/in/americ-allison-7a15ab166" target='_blank'>
+      <button className='bg-[#ef6c01] m-2 p-3 text-white'>
+      <FontAwesomeIcon icon={faDownload} />&nbsp;Download CV
+      </button>
+      </div>
+        <h1 className='text-black text-2xl m-2'>Curriculum Vitae of Americ Allison</h1>
+        <p className="m-2 text-[#031627]">+231880-832727</p>
+        <p className='text-sky-500 mb-4 font-bold m-2'><a href="https://www.linkedin.com/in/americ-allison-7a15ab166" target='_blank'>
         LinkedIn</a></p>
-        <h3 className='text-xl'>Skills Summary Statement</h3><hr />
+        <h3 className='text-xl '>Skills Summary Statement</h3><hr />
         <p className='mb-4'>Skilled and experienced professional with a range of core competencies and skills, 
             including effective communication, Python programming, web development, crop production, 
             critical thinking, teamwork, and cultural sensitivity. I have used data collection tools 
