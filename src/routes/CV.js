@@ -17,7 +17,7 @@ export default function CV() {
 
       {/* actual CV starts*/}
       <div className='p-5 md:m-5 m-2 text-white'>
-        <button className='bg-[#ef6c01] m-2 p-3 text-white'>
+        <button className='bg-gradient-to-r from-[#031697] to-[#E8373A] m-2 p-3 text-white'>
           <FontAwesomeIcon icon={faDownload} />&nbsp;Download CV
         </button>
 
