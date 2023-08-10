@@ -17,22 +17,22 @@ export default function CV() {
           <FontAwesomeIcon icon={faDownload} />&nbsp;Download CV
         </button>
 
-        <h1 className='text-black text-2xl m-2'>Curriculum Vitae of Americ Allison</h1>
-        <p className="m-2 text-[#031627]">+231880-832727</p>
-        <p className='text-sky-500 mb-4 font-bold m-2'><a href="https://www.linkedin.com/in/americ-allison-7a15ab166" target='_blank'>
-          LinkedIn</a></p>
-        <h3 className='text-xl m-2 text-[#031627]'>Skills Summary Statement</h3><hr />
-        <p className='m-2 p-3 text-stone-500'>Skilled and experienced professional with a range of core competencies and skills,
+        <h1 className='text-[#031627] text-xl font-bold ml-2 mt-2'>Curriculum Vitae of Americ Allison</h1>
+        <p className="ml-2 mt-3 text-[#031627]">Contact: +231880-832727 / 0775178202</p>
+        <p className='text-sky-400 mb-4 font-bold ml-2'><a href="https://www.linkedin.com/in/americ-allison-7a15ab166" target='_blank'>
+          LinkedIn</a><hr /></p>
+        <h3 className='text-xl m-2 font-bold text-[#031627]'>Skills Summary Statement</h3><hr />
+        <p className='m-1 p-3 text-stone-500'>Skilled and experienced professional with a range of core competencies and skills,
           including effective communication, Python programming, web development, crop production,
           critical thinking, teamwork, and cultural sensitivity. I have used data collection tools
           like Google Forms and Kobo Toolbox, as well as software applications such as SPSS and Jot Forms. I am self-motivated, adept at multitasking, and possess strong critical thinking and documentation skills.
           I serve as an IT Mentor for the Institute of Basic Technology, teaching computer literacy, Python
           Programming.</p>
-        <h3 className='text-xl'>Professional Experience</h3><hr />
-        <p className="text-xl mt-2 text-gray-700">Information Technology Mentor</p>
+        <h3 className='text-xl m-2 font-bold text-[#031627]'>Professional Experience</h3><hr />
+        <p className="font-medium m-2 text-[#031627]">Information Technology Mentor</p>
         <div className='flex justify-between'>
-          <p>Institute of Basic Technology</p>
-          <p>2022 - present</p>
+          <p className="text-[#031627]">Institute of Basic Technology</p>
+          <p className="text-[#031627]">2022 - present</p>
         </div>
         <ul>
           <li>- teaches computer literacy and Python Programming</li>
