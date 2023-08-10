@@ -72,7 +72,7 @@ export default function MainNavBar() {
                         {/* Logo */}
                         <div className="flex-shrink-0 flex items-center">
 
-                            <h1 className='text-["e5B891] font-bold logo-text'>&nbsp;<Link to="/">PABS TECH</Link></h1>
+                            <h1 className='text-[#e5B891] font-bold logo-text'>&nbsp;<Link to="/">PABS TECH</Link></h1>
                         </div>
                         {/* Navigation links */}
                         <div className="hidden justify-end sm:block sm:ml-6">
