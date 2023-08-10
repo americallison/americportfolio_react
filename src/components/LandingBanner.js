@@ -36,7 +36,7 @@ const LandingBanner = () => {
       </p>
       <div className='mt-3 mb-2'>
         <Link to="/projects" className="md:m-5 mt-3 ml-2 mb-2">
-          <button className="bg-[#EF6C01] hover:bg-[#172F5F] text-xl text-white p-3 font-light shadow-lg
+          <button className="bg-[#EF6C01] text-xl text-white p-3 font-light shadow-lg
           animate-fade-in-button delay-2000 bg-gradient-to-r from-[#031697] to-[#E8373A]"><FontAwesomeIcon icon={faBookOpen} />&nbsp;
             View my projects
           </button>

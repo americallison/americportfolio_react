@@ -19,7 +19,7 @@ export default function CV() {
       <div className='p-5 md:m-5 m-2 text-white'>
         <button className='bg-gradient-to-r from-[#031697] to-[#E8373A] m-2 p-3 text-white'>
           <FontAwesomeIcon icon={faDownload} />&nbsp;Download CV
-        </button>
+        </button><hr />
 
         <h1 className='text-[#031627] text-xl font-bold ml-2 mt-2'>Curriculum Vitae of Americ Allison</h1>
         <p className="ml-2 mt-3 text-[#031627]">Contact: +231880-832727 / 0775178202</p>
