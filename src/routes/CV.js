@@ -44,6 +44,7 @@ export default function CV() {
           <li className='text-[#ef6c01] ml-6 m-1'>- prepares, conducts, and supervises hands-on work readiness activities</li>
           <li className='text-[#ef6c01] ml-6 m-1'>- delivers lectures and provides clarity on course materials,
             responds to students’ inquiries in a timely and professional manner</li>
+            <li className='text-[#ef6c01] ml-6 m-1'>- teaches digital skills</li>
         </ul>
         <a className="text-sky-400 ml-3" href="https://www.institutebasictechnology.org">https://www.institutebasictechnology.org</a>
 
@@ -60,6 +61,9 @@ export default function CV() {
         <p className="text-[#031627] ml-3">December 2016 - January 2021</p>
         <ul>
           <li className='text-[#ef6c01] ml-6 m-1'>- assisted faculty and students with research and data analysis</li>
+          <li className='text-[#ef6c01] ml-6 m-1'>- ensured Resource Room policies and procedures 
+          were always adhered to</li>
+
         </ul>
         <a className="text-sky-400 ml-3" href="https://www.cu.edu.lr">https://www.cu.edu.lr</a>
 
@@ -67,9 +71,9 @@ export default function CV() {
         <p className="text-[#031627] ml-3">Calvary Baptist Church School System (CBCSS)</p>
         <p className="text-[#031627] ml-3">September 2017 - September 2018</p>
         <ul>
-          <li className='text-[#ef6c01] ml-6 m-1'>- assisted faculty and students with research and data analysis</li>
+          <li className='text-[#ef6c01] ml-6 m-1'>- taught algebraic concepts (Grades 10 to 12)</li>
+          <li className='text-[#ef6c01] ml-6 m-1'>- evaluated students' progress and enhanced learning</li>
         </ul>
-        <a className="text-sky-400 ml-3" href="https://www.cu.edu.lr">https://www.cu.edu.lr</a>
       </div>
     </>
   )
