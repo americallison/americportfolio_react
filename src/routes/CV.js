@@ -75,6 +75,42 @@ export default function CV() {
           <li className='text-[#ef6c01] ml-6 m-1'>- evaluated students' progress and enhanced learning</li>
         </ul>
       </div>
+
+      <h3 className='text-xl m-2 font-bold text-[#031627]'>Education</h3><hr />
+        <p className="font-medium ml-3 mt-2 text-[#031627]">Certificate in Introduction to Python Programming</p>
+     
+          <p className="text-[#031627] ml-3">Monrovia CS Academy (Orange Digital Center)</p>
+          <p className="text-[#031627] ml-3">February 2022 - July 2022</p>
+      
+        <a className="text-sky-400 ml-3" href="https://www.institutebasictechnology.org">https://www.institutebasictechnology.org</a>
+
+        <p className="font-medium ml-3 mt-5 text-[#031627]">Information Technology Mentor</p>
+        <p className="text-[#031627] ml-3">Institute of Basic Technology</p>
+        <p className="text-[#031627] ml-3">2022 - present</p>
+        <ul>
+          <li className='text-[#ef6c01] ml-6 m-1'>- teaches computer literacy and Python Programming</li>
+        </ul>
+        <a className="text-sky-400 ml-3" href="https://www.institutebasictechnology.org">https://www.institutebasictechnology.org</a>
+
+        <p className="font-medium ml-3 mt-5 text-[#031627]">Resource Room and Computer Lab Assistant</p>
+        <p className="text-[#031627] ml-3">Cuttington University</p>
+        <p className="text-[#031627] ml-3">December 2016 - January 2021</p>
+        <ul>
+          <li className='text-[#ef6c01] ml-6 m-1'>- assisted faculty and students with research and data analysis</li>
+          <li className='text-[#ef6c01] ml-6 m-1'>- ensured Resource Room policies and procedures 
+          were always adhered to</li>
+
+        </ul>
+        <a className="text-sky-400 ml-3" href="https://www.cu.edu.lr">https://www.cu.edu.lr</a>
+
+        <p className="font-medium ml-3 mt-5 text-[#031627]">Algebra Teacher</p>
+        <p className="text-[#031627] ml-3">Calvary Baptist Church School System (CBCSS)</p>
+        <p className="text-[#031627] ml-3">September 2017 - September 2018</p>
+        <ul>
+          <li className='text-[#ef6c01] ml-6 m-1'>- taught algebraic concepts (Grades 10 to 12)</li>
+          <li className='text-[#ef6c01] ml-6 m-1'>- evaluated students' progress and enhanced learning</li>
+        </ul>
+      
     </>
   )
 }
